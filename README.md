@@ -12,7 +12,6 @@ Welcome to the LANCE (LArge language model-based News Content rEwriting) reposit
 **Download and Preprocess the Data**
 ```bash
 # Uncomment the following lines to use the MIND Small dataset (note: MIND Small doesn't have a test set)
-cd data/original/
 wget https://mind201910small.blob.core.windows.net/release/MINDsmall_train.zip
 wget https://mind201910small.blob.core.windows.net/release/MINDsmall_dev.zip
 unzip MINDsmall_train.zip -d train
