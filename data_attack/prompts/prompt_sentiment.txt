@@ -1,0 +1,23 @@
+Task: Rewrite the provided news title and abstract into 3 different versions, each reflecting a specific sentiment. The output should maintain the original core information while adhering to the designated tone and length constraints.
+
+Output Format:
+{
+    "Positive": {"title": "XXXX", "abstract": "XXXX"},
+    "Negative": {"title": "XXXX", "abstract": "XXXX"},
+    "Neutral": {"title": "XXXX", "abstract": "XXXX"}
+}
+Replace XXXX with the rewritten news title or abstract.
+
+Sentiments:
+1. Positive: Highlight the optimistic aspects, emphasizing benefits, opportunities, or successes.
+2. Negative: Focus on pessimistic perspectives, underscoring challenges, risks, or drawbacks.
+3. Neutral: Present the facts impartially, avoiding emotional language or bias.
+
+Length Constraints:
+Title: Maximum 30 words.
+Abstract: Maximum 60 words.
+
+Input:
+Original News: {original_news}
+
+Output: Only generate the rewritten news in the specified JSON format for each sentiment.

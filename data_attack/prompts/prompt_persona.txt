@@ -1,0 +1,29 @@
+Task: Rewrite the provided news title and abstract into 6 different versions, each reflecting a specific perspective or persona. The output should maintain the original core information while adhering to the designated tone and length constraints.
+
+Output Format:
+{
+    "Investigative_Reporter": {"title": "XXXX", "abstract": "XXXX"},
+    "Social_Media_Influencer": {"title": "XXXX", "abstract": "XXXX"},
+    "Casual_Observer": {"title": "XXXX", "abstract": "XXXX"},
+    "Skeptic": {"title": "XXXX", "abstract": "XXXX"},
+    "Optimist": {"title": "XXXX", "abstract": "XXXX"},
+    "Pessimist": {"title": "XXXX", "abstract": "XXXX"}
+}
+Replace XXXX with the rewritten news title or abstract.
+
+Personas:
+1. Investigative_Reporter: Provides in-depth, critical analysis by uncovering hidden details and asking probing questions. Focus on evidence and accountability.
+2. Social_Media_Influencer: Uses a trendy, conversational tone with hashtags, emojis, and catchy language for engaging and shareable content.
+3. Casual_Observer: Simplifies the news using clear, easy-to-understand language, avoiding technical jargon or complex details.
+4. Skeptic: Critically analyzes the news, questioning motives, reliability, and potential biases of involved parties.
+5. Optimist: Highlights positive aspects, emphasizing hope, benefits, or opportunities.
+6. Pessimist: Focuses on negative aspects, emphasizing challenges, risks, or potential drawbacks.
+
+Length Constraints:
+Title: Maximum 30 words.
+Abstract: Maximum 60 words.
+
+Input:
+Original News: {original_news}
+
+Output: Only generate the rewritten news in the specified JSON format for each persona.

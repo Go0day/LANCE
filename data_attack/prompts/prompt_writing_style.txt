@@ -1,0 +1,27 @@
+Task: Rewrite the provided news title and abstract into 5 different versions, each reflecting a specific writing style. The output should maintain the original core information while adhering to the designated tone and length constraints.
+
+Output Format:
+{
+    "Journalistic": {"title": "XXXX", "abstract": "XXXX"},
+    "Narrative": {"title": "XXXX", "abstract": "XXXX"},
+    "Persuasive": {"title": "XXXX", "abstract": "XXXX"},
+    "Humorous": {"title": "XXXX", "abstract": "XXXX"},
+    "Conversational": {"title": "XXXX", "abstract": "XXXX"}
+}
+Replace XXXX with the rewritten news title or abstract.
+
+Writing Styles:
+1. Journalistic: Objective, factual, and concise. Use the inverted pyramid structure (key details first).
+2. Narrative: A compelling and vivid storytelling style with emotional engagement.
+3. Persuasive: Opinionated and fact-supported arguments, concluding with a clear call to action.
+4. Humorous: Witty and playful tone, incorporating humor while staying relevant.
+5. Conversational: Casual, simple, and relatable language that engages readers directly.
+
+Length Constraints:
+Title: Maximum 30 words.
+Abstract: Maximum 60 words.
+
+Input:
+Original News: {original_news}
+
+Output: Only generate the rewritten news in the specified JSON format for each style.
