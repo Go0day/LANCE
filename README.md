@@ -43,10 +43,11 @@ git clone https://github.com/hiyouga/LLaMA-Factory.git
 
 Build the environment and name it `llmfintune`.
 
-2. Prepare Data
+2. Prepare Data.
+   
 Move the provided data and configuration files to their respective directories in LLaMA-Factory.
 
-3. Run DPO Fine-tuning, take NAML as an example.
+4. Run DPO Fine-tuning, take NAML as an example.
 ```bash
 source /home/XXXX/anaconda3/etc/profile.d/conda.sh
 conda activate llmfintune
