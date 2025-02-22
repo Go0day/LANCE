@@ -6,7 +6,7 @@ A framework for textual attacks on news recommendation systems using Large Langu
 
 Welcome to the LANCE (LArge language model-based News Content rEwriting) repository. This project implements textual attacks on news recommendation models by leveraging LLMs to rewrite news content, enhance ranking performance, and preserve semantic relevance.
 
-![Illustrating how LANCE works](intro.jpg width=60%)
+<img src="intro.jpg" alt="Illustrating how LANCE works" width="60%" />
 
 ## Getting Started
 
