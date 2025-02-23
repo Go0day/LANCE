@@ -6,7 +6,7 @@ A framework for textual attacks on news recommendation systems using Large Langu
 
 Welcome to the LANCE (LArge language model-based News Content rEwriting) repository. This project implements textual attacks on news recommendation models by leveraging LLMs to rewrite news content, enhance ranking performance, and preserve semantic relevance.
 
-<img src="intro.jpg" alt="Illustrating how LANCE works" width="60%" />
+<img src="intro.jpg" alt="Illustrating how LANCE works" width="50%" />
 
 ## Getting Started
 
@@ -65,6 +65,8 @@ sleep 20
 source /home/XXXX/anaconda3/etc/profile.d/conda.sh
 conda activate rec
 cd ../newsRec/src
+CUDA_VISIBLE_DEVICES=0 MODEL_NAME=NAMLbert python evaluate_attack_metric_llama.py --pretrained_mode=bert --word_embedding_dim=768 --learning_rate=0.00001 --dropout_probability=0.2 --batch_size=64 --finetune_layers=4 --diverse_mode=improve --llm_api_mode=llama3 --target_trainORtest=test --news_encoder=bert --llm_name=llama3_mind_NAMLbert_train_bert_largest_dpo --llm_test_version=1
+sleep 20   
 ```
 
 ## Credits
@@ -72,6 +74,4 @@ cd ../newsRec/src
 - **Dataset**: Provided by the Microsoft News Dataset (MIND). Learn more at [MIND](https://msnews.github.io/).
 - **News Recommendation Models**: Provided by Go0day. Repository: [LM4newsRec](https://github.com/Go0day/LM4newsRec).
 - **Finetuning LLMs**: Provided by hiyouga. Repository: [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
-CUDA_VISIBLE_DEVICES=0 MODEL_NAME=NAMLbert python evaluate_attack_metric_llama.py --pretrained_mode=bert --word_embedding_dim=768 --learning_rate=0.00001 --dropout_probability=0.2 --batch_size=64 --finetune_layers=4 --diverse_mode=improve --llm_api_mode=llama3 --target_trainORtest=test --news_encoder=bert --llm_name=llama3_mind_NAMLbert_train_bert_largest_dpo --llm_test_version=1
-sleep 20   
-```
+
