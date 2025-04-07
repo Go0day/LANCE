@@ -8,6 +8,30 @@ Welcome to the LANCE (LArge language model-based News Content rEwriting) reposit
 
 <img src="intro.jpg" alt="Illustrating how LANCE works" width="50%" />
 
+## Diverse Rewriting Details
+This part provides detailed descriptions of diverse rewrite prompts, categorized by writing style, sentiment, and persona. Each category is annotated with its corresponding group: Positive (P), Negative (N), or Neutral (U).
+
+### Writing Styles
+1. **Narrative (P)**: A compelling and vivid storytelling style with emotional engagement.
+2. **Persuasive (P)**: Opinionated and fact-supported arguments, concluding with a clear call to action.
+3. **Journalistic (N)**: Objective, factual, and concise. Use the inverted pyramid structure (key details first).
+4. **Humorous (U)**: Witty and playful tone, incorporating humor while staying relevant.
+5. **Conversational (U)**: Casual, simple, and relatable language that engages readers directly.
+
+### Sentiments
+1. **Positive (P)**: Highlight the optimistic aspects, emphasizing benefits, opportunities, or successes.
+2. **Negative (N)**: Focus on pessimistic perspectives, underscoring challenges, risks, or drawbacks.
+3. **Neutral (U)**: Present the facts impartially, avoiding emotional language or bias.
+
+### Personas
+1. **Optimist (P)**: Highlights positive aspects, emphasizing hope, benefits, or opportunities.
+2. **Skeptic (N)**: Critically analyzes the news, questioning motives, reliability, and potential biases of involved parties.
+3. **Pessimist (N)**: Focuses on negative aspects, emphasizing challenges, risks, or potential drawbacks.
+4. **Investigative Reporter (U)**: Provides in-depth, critical analysis by uncovering hidden details and asking probing questions. Focus on evidence and accountability.
+5. **Social Media Influencer (U)**: Uses a trendy, conversational tone with hashtags, emojis, and catchy language for engaging and shareable content.
+6. **Casual Observer (U)**: Simplifies the news using clear, easy-to-understand language, avoiding technical jargon or complex details.
+
+
 ## Getting Started
 
 ### Step 1: Prepare News Recommendation Model
